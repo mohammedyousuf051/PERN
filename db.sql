@@ -16,9 +16,9 @@ CREATE TABLE products(
     on_purchase boolean
 );
 
--- CREATE TABLE resturants(
---     Id BIGSERIAL NOT NULL PRIMARY KEY,
---     Name VARCHAR(65) NOT NULL,
---     location VARCHAR(65) NOT NULL,
---     Price_range INT NOT NULL check(Price_range >= 1 and Price_range <=5)
--- );
+CREATE TABLE resturants(
+    Id BIGSERIAL NOT NULL PRIMARY KEY,
+    Name VARCHAR(65) NOT NULL,
+    location VARCHAR(65) NOT NULL,
+    Price_range INT NOT NULL check(Price_range >= 1 and Price_range <=5)
+);
