@@ -9,12 +9,12 @@ CREATE DATABASE yelp;
 -- list all tables : \d
 -- Create table:
 --  view table contents : \d products
-CREATE TABLE products(
-    Id INT,
-    Name VARCHAR(65),
-    Price INT,
-    on_purchase boolean
-);
+-- CREATE TABLE products(
+--     Id INT,
+--     Name VARCHAR(65),
+--     Price INT,
+--     on_purchase boolean
+-- );
 
 CREATE TABLE resturants(
     Id BIGSERIAL NOT NULL PRIMARY KEY,
