@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from './routes/Home';
 import ResturantDetail from './routes/ResturantDetail';
 import UpdatePage from './routes/UpdatePage';
-
+#switch throws an error
 const App = () =>{
     return <div>
             <Router>
