@@ -6,7 +6,7 @@
 CREATE DATABASE yelp;
 
 -- Connect to db : \c yelp
--- list all tables : \d
+--  list all tables : \d
 -- Create table:
 --  view table contents : \d products
 -- CREATE TABLE products(
