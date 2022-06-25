@@ -3,7 +3,7 @@
 
 -- Create DB:
 
--- CREATE DATABASE yelp;
+CREATE DATABASE yelp;
 
 -- Connect to db : \c yelp
 -- list all tables : \d
