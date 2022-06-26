@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import Home from './routes/Home';
 import ResturantDetail from './routes/ResturantDetail';
-import UpdatePage from './routes/UpdatePage';
+// import UpdatePage from './routes/UpdatePage';
 
 const App = () =>{
     return <div>
