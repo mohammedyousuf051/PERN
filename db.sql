@@ -1,7 +1,7 @@
 -- List all DB : 
 -- \l
 
-Create DB:
+-- Create DB:
 
 CREATE DATABASE yelp;
 
